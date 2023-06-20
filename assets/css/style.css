@@ -43,10 +43,15 @@ h5 {
 label {
     font-weight: 600;
     line-height: 2.5;
+    color: olivedrab;
 }
 
 input::placeholder {
-    color: gray;
+    color: lightgrey;
+}
+
+textarea::placeholder {
+    color: lightgray;
 }
 
 .submit-button {
