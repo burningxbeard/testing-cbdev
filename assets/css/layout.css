@@ -13,7 +13,7 @@ input {
     padding-left: .375em;
     background-color: #000;
     color: white;
-    border: 1px solid olivedrab;
+    border: 1px solid rgb(19, 78, 116);
 }
 textarea {
     width: 100%;
@@ -23,7 +23,7 @@ textarea {
     padding: .375rem;
     background-color: #000;
     color: white;
-    border: 1px solid olivedrab;
+    border: 1px solid rgb(19, 78, 116);
 }
 .wrapper {
     margin: 0 1rem;
@@ -43,13 +43,4 @@ textarea {
     margin-top: 2rem;
 }
 
-footer {
-    background-color: black;
-    width: 100%;
-    height: 3.5rem;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
 
