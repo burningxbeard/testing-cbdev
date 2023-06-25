@@ -16,31 +16,38 @@ body {
 
 header {
     background-color: black;
-    background-image: url("../images/dummy-header.png");
-    background-position: center;
 }
 
 h1 {
     color: rgb(19, 78, 116);
+	font-size: 3.5em;
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 1;
 }
 
-h5 {
-    color: rgb(19, 78, 116);
-    text-shadow: 0 0 2px black;
+h3 {
+	font-size: 2em;
 }
 
+.ghost {
+    display: inline-block;
+	font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(19, 78, 116);
+	margin-top: 5px;
+}
+
+
 .reg-text {
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: justify;
 }
 .ghost {
     display: inline-block;
     text-align: center;
     padding: 0 2px;
-    background-color: hsla(255, 100%, 100%, .2);
+    background-color: rgb(19, 78, 116);
 }
 
 label {
@@ -71,7 +78,7 @@ textarea::placeholder {
     color: var(--light);
 }
 .submit-button:hover {
-    background: linear-gradient(hsl(60, 100%, 40%), hsl(60, 100%, 25%));
+    background: linear-gradient(rgb(27, 100, 148), rgb(13, 64, 112));
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
