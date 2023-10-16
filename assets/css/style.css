@@ -9,27 +9,33 @@
 }
 body {
     background-color: rgb(24, 24 ,24);
-    /* background: linear-gradient( rgb(24, 24, 24), rgb(19, 78, 116)) fixed; */
     font-family: 'Open Sans';
     color: var(--light);
+	margin: 0
 }
 
 header {
-    background-color: black;
-    background-image: url("../images/dummy-header.png");
-    background-position: center;
+	background: linear-gradient( rgb(24, 24, 24), rgb(0, 0, 0));
+    text-align: center;
 }
 
-h1 {
+.body-title {
     color: rgb(19, 78, 116);
-    font-weight: 600;
-    letter-spacing: 3px;
+    font-weight: 400;
+	font-size: 2.65em;
     line-height: 1;
 }
-
-h5 {
+.white {
+	color: #fff;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
     color: rgb(19, 78, 116);
     text-shadow: 0 0 2px black;
+	font-size: .82em;
+	margin: .25rem 0;
 }
 
 .reg-text {
@@ -39,7 +45,7 @@ h5 {
 .ghost {
     display: inline-block;
     text-align: center;
-    padding: 0 2px;
+    padding: 0 .5rem;
     background-color: hsla(255, 100%, 100%, .2);
 }
 
@@ -71,7 +77,7 @@ textarea::placeholder {
     color: var(--light);
 }
 .submit-button:hover {
-    background: linear-gradient(hsl(60, 100%, 40%), hsl(60, 100%, 25%));
+    background: linear-gradient(rgb(18, 96, 148), rgb(16, 87, 134));
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
@@ -93,8 +99,12 @@ a:hover {
 
 @media (min-width: 960px) {
     body {
-        margin: 0 4rem;
+        margin: 0;
     }
+	header {
+		padding-left: 2rem;
+		text-align: left;
+	}
     .reg-text {
         font-size: 1.5em;
     }
@@ -102,6 +112,7 @@ a:hover {
         border: 1px solid white;
         border-radius: 1rem;
         width: 32rem;
+		margin-top: 4rem;
         padding: 2rem;
     }
 
@@ -179,7 +190,8 @@ a:hover {
 	color:  rgb(19, 78, 116);
 	font-size: 14px;
 	font-weight: normal;
-	margin: 0;
+	margin: 1rem 0;
+	text-align: right;
 }
 
 /* Footer Center */
