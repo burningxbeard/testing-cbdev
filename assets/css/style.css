@@ -21,12 +21,14 @@ header {
 
 .body-title {
     color: rgb(19, 78, 116);
-    font-weight: 600;
-    letter-spacing: 3px;
+	font-size: 2.65em;
+    font-weight: 400;
     line-height: 1;
 }
-
-h5 {
+.white {
+	color: #fff;
+}
+h3 {
     color: rgb(19, 78, 116);
     text-shadow: 0 0 2px black;
 }
@@ -38,6 +40,7 @@ h5 {
 }
 .ghost {
     display: inline-block;
+	font-size: .7em;
     text-align: center;
     padding: 0 2px;
     background-color: hsla(255, 100%, 100%, .2);
