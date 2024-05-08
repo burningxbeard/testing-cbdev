@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkolivegreen;
+    margin: 1rem;
+    color: darkkhaki;
+}
+.normal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
