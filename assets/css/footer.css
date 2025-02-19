@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
     background-color: rgb(24, 24, 24);
-    margin: 0 12px;
 	color: white;
 }
 .one {
@@ -92,7 +93,7 @@ body {
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 20%;
+	width: 30%;
 }
 
 .footer-distributed .footer-center i{
@@ -193,7 +194,9 @@ body {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
+.footer-logo {
+	text-decoration: none;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 920px) {
